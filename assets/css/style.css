@@ -1,0 +1,2188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 4dvw;
+}
+h2{
+    font-size: 3dvw;
+}
+h3{
+    font-size: 2dvw;
+}
+
+@font-face {
+    font-family: demo;
+    src: url(../fonts/Gilroy-Bold.woff);
+}
+
+
+
+html{
+    font-family: demo;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    background: url(../images/first\ background.png);
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw 5vw;
+}
+nav .landmark{
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5vw;
+}
+
+nav .landmark img {
+    width: 4.5vw;
+}
+
+nav ol{
+    display: flex;
+    gap: 1.5dvw;
+}
+
+nav ol li {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    color: white;
+    background: #FF7433;
+    padding: 1dvw 2dvw;
+    border-radius: .3dvw;
+}
+
+/* ==========================hero ===================*/
+
+.hero{ 
+    width: 100%;
+    padding: 4dvw 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.written{
+    width: 40%;
+    padding: 0 7dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+}
+.written p{
+    font-size: 1.3dvw;
+    line-height: 200%;
+}
+.written .service{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.written .button{
+    color: black;
+    background:#FFCF54;
+}
+
+.image{
+    width: 48.5%;
+}
+
+.hero .image .hero_img {
+    width: 100%;
+}
+
+.smapark{
+    width: 15dvw;
+    position: absolute;
+    top: 26dvw;
+    left: 43dvw;
+}
+.smallparkview{
+    color: black;
+    position: absolute;
+    top: 27.5dvw;
+    left: 45.5dvw;
+}
+
+.smallparkview p{
+    padding: 0 2dvw 0 0;
+}
+/*///////////////////////////////// award =====================================*/
+
+.award{
+    width: 100%;
+    padding: 5%;
+    display: flex;
+}
+
+
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 4dvw;
+    position: relative;
+}
+.sarrow{
+    width: 4dvw;
+    position: absolute;
+    bottom: 6dvw;
+    left: 5dvw;
+}
+
+.build{
+    width: 17dvw;
+}
+.s{
+    width: 40dvw;
+    padding-right: 9dvw;
+}
+
+
+.right{
+    width: 55%;
+    padding-top: 3dvw;
+    position: relative;
+}
+.rnukback{
+    position: absolute;
+    right:  2dvw;
+    top: 23.5dvw;
+}
+
+.nukkar{
+    width: 1.7 dvw;
+    position: absolute;
+    right: 2.5dvw;
+
+}
+.right p{
+    padding: 1dvw;
+    line-height: 135%;
+}
+
+span{
+    padding: 0dvw 2dvw 0dvw 6dvw;
+}
+
+.numbering{
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.about{
+    padding-top: 8dvw;
+    display: flex;
+    align-items: center;
+    gap: 1.4dvw;
+}
+.about h3{
+    color: #F5D47C;
+}
+/* --------------------------------------------projects [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[*/
+
+.projects{
+    width: 100%;
+    padding:  0 12dvw;
+    position: relative;
+    padding-bottom: 12dvw;
+
+}
+.projects h4{
+    color: #F5D47C;
+}
+.projects h2{
+    font-size: 2.7dvw;
+    padding-top: .5dvw;
+}
+.house{
+    width: 100%; 
+    display: flex;
+    padding: 5dvw 2dvw 2dvw 2dvw;
+    gap: 4dvw;
+}
+.house div img{
+    width: 20dvw;
+    
+}
+.home{
+    position: relative;
+}
+.box{
+    width: 15dvw;
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    left: 2.5dvw;
+    bottom: -1.5dvw;
+}
+.star{
+    position: absolute;
+    right: 0;
+    bottom: 27dvw;
+}
+
+.eclips{
+    width: 42dvw;
+    position: absolute;
+    right: 0dvw;
+    bottom: 0dvw; */
+    /* z-index: -1; */
+}
+
+
+
+/*----------------------------
+------------------------------------------ explore-------------------------------
+-------------------------------------------------------- */
+
+.explore{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    padding: 7dvw 10dvw;
+}
+
+.explore h3{
+    color: #E27E52;
+
+}
+.explore .heading{
+    padding-bottom: 7dvw;
+}
+.explore .heading h3{
+    padding-bottom: 1.1dvw;
+}
+
+.exp{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+.exp hr{
+    border: .2dvw solid #F0F0F0;
+    
+}
+
+.explore h2{
+    color: black;
+}
+.park{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: .7dvw;
+}
+.park h3,
+.park h4,
+.park p{
+    color: black;
+}
+.park img{
+    padding-bottom: 2.5dvw;
+}
+
+.metrogujar{
+    padding-top: 8dvw;
+}
+.lahore{
+}
+.gulbergislam{
+    padding-top: 12dvw;
+}
+
+/*---------------------------------------- OLD PROCESSES----------------------------------------------------------------- */
+
+.midback{
+    width: 100%;
+    background: url(../images/oldprocessesback.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.oldlife{
+    width: 100%;
+    padding: 8dvw;
+    display: flex;
+    flex-direction: column;
+
+}
+.oldhead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2dvw;
+    padding-bottom: 2dvw;
+}
+.oldhead .left1{
+    width: 35%;
+}
+.left1 h4{
+    color: #E27E52;
+    padding-bottom: 2dvw;
+}
+.oldhead .right2{
+    width: 30%;
+}
+.right2{
+    justify-content: flex-end;
+}
+
+.oldproj{
+    width: 100%;
+    display: flex;
+    padding: 2dvw;
+
+}
+.box1{
+    width: 25dvw;
+    border: .2dvw solid white;
+    padding: 2.5dvw 2dvw;
+    display: flex;
+    flex-direction: column;
+}
+.box1 img{
+    width: 3dvw;
+}
+.box1 .investment{
+    padding:3dvw 4dvw ;
+}
+.wining{
+    width: 100%;
+    position: relative;
+    color: black;
+    padding-top: 4dvw;
+    padding-bottom: 3dvw;
+    
+}
+.awarddd{
+    width: 75dvw;
+    height: 17dvw;
+    padding-left: 3dvw;
+
+}
+
+
+
+.won{
+    width: 100%;
+    padding: 6dvw 10dvw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5dvw;
+    position: absolute;
+    bottom:2dvw;
+    color: black;
+}
+.won hr{
+    border: .1dvw solid #E27E52;
+    height: 6dvw;
+}
+.won p{
+    padding: 0 3dvw;
+}
+
+
+.testimonial{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.testhead{
+    width: 100%;
+    text-align: center;
+    padding: 5dvw 0;
+}
+.testhead h4{
+    color: #E27E52;
+    padding-bottom: 1dvw ;
+}
+.clients{
+    width: 100%;
+    padding: 0 10dvw;
+    display: flex;
+    gap: 3dvw;
+}
+
+.clients img{
+    width: 18dvw;
+}
+
+/*-------------------------------- WHY US ----------------------------------------*/
+
+.whyus{
+    width: 100%;
+    background: url(../images/whyusback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between ;
+    gap: 11.8dvw;
+    padding-bottom: 14dvw;
+}
+.whyus .left{
+    width: 50%;
+    padding-top: 8dvw;
+    padding-left: 4dvw;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5dvw;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    gap: 1.1dvw;
+}
+span h4{
+    color: #FFCF54;
+}
+span hr{
+    border: .1dvw solid #FFFFFF;
+}
+.whyus .right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 2dvw;
+}
+
+.whyus .right h5{
+    color: #FFCF54;
+    padding-left: 16dvw;
+
+}
+.whyus .right h2{
+    padding-left: 15dvw;
+    padding-bottom: 5dvw;
+
+}
+.whyus .right img{
+    width: 100%;
+}
+
+/*-=---------------------------- AWARD, ACHIEVEMENTS DEVELOPMENT ---------------------------------------------*/
+ 
+.achdevelop{
+    width: 100%;
+
+}
+.awahead{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2dvw;
+    padding-top: 3dvw;
+    padding-bottom: 6dvw;
+}
+.achdevelop h5{
+    color: #E27E52;
+}
+.achdevelop h2{
+    color: black;
+}
+.medals{
+    width: 100%;
+    display: flex;
+    padding: 0 8dvw;
+    padding-bottom: 6dvw;
+    justify-content: space-between ;
+}
+
+
+.awa{
+    width: 20%;
+}
+.awa h4{
+    width: 100%;
+    color: white;
+    font-size: 1.6dvw;
+    background: black;
+    padding: 2dvw 1dvw;
+}
+
+.awa img {
+    width: 100%;
+}
+
+.medals .awa:nth-of-type(2) {
+    margin-top: 5vw;
+}
+
+.medals .awa:nth-of-type(3) {
+    margin-top: -5vw;
+}
+
+.medals .awa:nth-of-type(4) {
+    margin-top: 5vw;
+}
+
+
+/*----------------------------------- DEVELOPMENT--------------------------------------------- */
+.development{
+    width: 100%;
+    background: url(../images/developback.png);
+    padding:  5dvw 10dvw 8dvw 10dvw;
+    display: flex;
+    flex-direction: column;
+    gap: 4dvw;
+}
+
+.devhead h4{
+    color: #E27E52;
+    padding: 1dvw;
+}
+.devhead h2{
+    color: black;
+}
+
+.newpro{
+    width: 100%; 
+    display: flex;
+
+    justify-content: space-between;
+}
+.parkview img{
+    width: 20dvw;
+    
+}
+.parkview{
+    position: relative;
+}
+.box{
+    width: 15dvw;
+    background-color: white;
+    color: black;
+    text-align: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 2.5dvw;
+    bottom: -1.5dvw;
+}
+
+/*================================= BLOG------------------------------------ */
+.ourblogs{
+    width: 100%;
+    background: url(../images/blogsback.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 8dvw;
+    padding: 6dvw 9dvw;
+    position: relative;
+}
+.ourblogs .blogstar{
+    position: absolute;
+    left: 0;
+    top: 3dvw;
+}
+.bloghead{
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+    gap: 1dvw;
+}
+.bloghead h5{
+    color: #F5D47C;
+
+}
+
+.blogs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 9dvw;
+
+}
+.blog{
+    width: 30dvw;
+    display: flex;
+    flex-direction: column;
+    gap: 1dvw;
+}
+.blog h5{
+    color: #E27E52;
+}
+.blog h5 img{
+    width: 1dvw;
+}
+.blog img{
+    width: 21dvw;
+}
+.blog h4{
+    font-size: 1.7dvw;
+}
+.blog h4,
+.blog p{
+    padding-right: 3dvw;
+}
+.blog.b1 h4,
+.blog.b1 p{
+    padding-right:5dvw ;
+}
+.blog.b1{
+    padding-right: dvw;
+}
+.blog.b2{
+    padding-left: 3dvw;
+    padding-top: 6dvw;
+}
+.blog.b3{
+    padding-left: 3dvw;
+    margin-top: -4dvw;
+}
+.hr2{
+    margin-top: -4dvw;
+}
+
+/*--------------------------------- about--------------------------------------------- */
+ 
+footer{
+    position: relative;
+}
+.foot{
+    width: 100%;
+    display: flex ;
+    gap: 3dvw;
+    justify-content: space-between;
+}
+.aboutt{
+    width: 22%;
+    line-height: 160%;
+}
+.aboutt.cont{
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    gap: 1dvw;
+}
+.aboutt h3{
+    padding-bottom: 2dvw;
+}
+
+.contacts{
+    width: 130%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1dvw 0dvw 1dvw 1dvw;
+    background: url(../images/contactsback.png);
+    background-position: start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 2dvw;
+}
+.contacts .sign{
+    width: 1dvw;
+    padding:  .7dvw;
+}
+.sign{
+    display: flex;
+    gap: 2dvw;
+}
+.s1{
+    padding-left: .5dvw;
+}
+
+.leftnukar{
+    width: 2dvw;
+    position: absolute;
+    left: -1dvw;
+    top: -1.6dvw;
+}
+.nukarback{
+    width: 2dvw;
+    position: absolute;
+    left: -1.6dvw;
+    top: -2.1dvw;
+}
+.helpful{
+    width: 15%;
+}
+.aboutt li{
+    list-style-type: none
+}
+
+/*=============================================================
+---------------------------------- MEDIA ----------------------
+------------------------------------============================
+================================================================
+---------------------------------------------------------------------- */
+
+
+
+@media(max-width:1024px) {
+    .main{
+        width: 100%;
+        height: auto;
+        background: url(../images/first\ background.png);
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button{
+        color: white;
+        background: #FF7433;
+        padding: 1dvw 2dvw;
+        border-radius: .3dvw;
+    }
+    
+    /* ==========================hero ===================*/
+     
+    .hero{
+        width: 100%;
+        gap: 3dvw;
+        display: flex;
+    }
+    .written{
+        width: 50%;
+        gap: 1.5dvw;
+        text-align: center;
+        justify-content: center;
+    }
+    .written h1{
+        font-size: 4.2dvw;
+    }
+    .written p{
+        font-size: 1.5dvw;
+        line-height: 200%;
+    }
+    .written .service{
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+    }
+    .written .button{
+        font-size: 1.6dvw;
+        color: black;
+        background:#FFCF54;
+    }
+    
+    .image{
+        width: 50%;
+    }
+    
+    .hero .image .hero_img {
+        width: 100%;
+    }
+
+    /*///////////////////////////////// award =====================================*/    
+    .award{
+        padding: 0;
+        justify-content: space-around;
+        display: flex;
+        gap: 0;
+    }
+    
+    
+    .left{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        gap: 4dvw;
+        position: relative;
+    }
+
+    .build{
+        width: 100%;
+        padding: 0 7dvw;
+    }
+    .spic{
+        position: relative;
+        padding-left: 4dvw;
+    }
+    .sarrow{
+        bottom:5dvw;
+        left: 8dvw;
+    }
+    
+    .s{
+        width: 100%;
+    }
+    
+    
+    .right{
+        padding-top: 1dvw;
+    }
+    .numbering{
+        width: 40%;
+        justify-content: flex-start;
+    }
+    span{
+        padding: 0dvw 2dvw 0dvw 6dvw;
+    }
+    .right .about{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        position: relative;
+    }
+    
+    .nukkar{
+        width: 1.7 dvw;
+        position: absolute;
+        right: 2.5dvw;
+    
+    }
+    .rnukback{
+        position: absolute;
+        right:  2dvw;
+        top: 6.9dvw;
+    }
+    .about h3{
+        font-size: 2.5dvw;
+    }
+    .about h4{
+        font-size: 2.5dvw
+    }
+    .about p{
+        padding: 0dvw;
+        font-size: 2dvw;
+        line-height: 135%;
+    }
+    
+
+    
+    
+    /* --------------------------------------------projects [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[*/
+    
+    .projects{
+        width: 100%;
+        padding:  8dvw 10dvw 10dvw 10dvw;
+        position: relative;
+        text-align: center;
+    
+    }
+    .projects h4{
+        color: #F5D47C;
+        padding-bottom: .5dvw;
+    }
+    .projects h2{
+        font-size: 4.7dvw;
+        padding-bottom: 4dvw;
+    }
+    .house{
+        width: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+        padding:0%;
+        justify-content:center;
+        gap: 9dvw;
+    }    
+    .house .home img{
+        width: 100%;
+        position: relative;
+    }
+ 
+    .home .box{
+        width: 83%;
+        background-color: white;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        left: 2.5dvw;
+        bottom: -1.5dvw;
+    }
+    .star{
+        position: absolute;
+        right: 0;
+        bottom: 27dvw;
+    }
+    
+    .eclips{
+        width: 42dvw;
+        position: absolute;
+        right: 0dvw;
+        bottom: 0dvw;
+        /* z-index: -1; */
+    }
+    
+    
+    
+    /*----------------------------
+    ------------------------------------------ explore-------------------------------
+    -------------------------------------------------------- */
+    
+        .explore{
+            padding: 7dvw 10dvw;
+            text-align: center;
+        }
+        
+        .explore h3{
+            color: #E27E52;
+        
+        }
+        .explore .heading{
+            padding-bottom: 7dvw;
+        }
+        .explore .heading h3{
+            padding-bottom: 1.1dvw;
+        }
+        .explore .heading h2{
+            font-size: 4dvw;
+            color: black;
+        }
+        
+        .exp{
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .exp hr{
+            border: .5dvw solid #F0F0F0;
+            
+        }
+        
+        .park{
+            width: 34%;
+            display: flex;
+            flex-direction: column;
+            gap: .7dvw;
+        }
+        .park h3,
+        .park h4,
+        .park p{
+            color: black;
+        }
+        .park img{
+            padding-bottom: 2.5dvw;
+        }
+        
+        .metrogujar{
+            padding-top: 8dvw;
+        }
+        .lahore{
+        }
+        .gulbergislam{
+            padding-top: 12dvw;
+        }
+    
+    
+    /*---------------------------------------- OLD PROCESSES----------------------------------------------------------------- */
+    
+.midback{
+        width: 100%;
+        background: url(../images/oldprocessesback.png);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .oldlife{
+        width: 100%;
+        padding: 8dvw;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .oldhead{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2dvw;
+        padding-bottom: 2dvw;
+    }
+    .oldhead .left1{
+        width: 45%;
+    }
+    .left1 h2{
+        font-size: 4dvw;
+    }
+    .oldhead .right2{
+        width: 30%;
+    }
+    .right2{
+        justify-content: flex-end;
+    }
+    
+    .oldproj{
+        width: 100%;
+        display: flex;
+        padding: 2dvw;
+    
+    }
+    .box1{
+        width: 25dvw;
+        border: .2dvw solid white;
+        padding: 2.5dvw 2dvw;
+        display: flex;
+        flex-direction: column;
+    }
+    .box1 img{
+        width: 3dvw;
+    }
+    .box1 .investment{
+        padding:3dvw 4dvw ;
+    }
+    .wining{
+        width: 100%;
+        position: relative;
+        color: black;
+        padding-top: 4dvw;
+        padding-bottom: 3dvw;
+        
+    }
+    .awarddd{
+        width: 75dvw;
+        height: 17dvw;
+        padding-left: 3dvw;
+    
+    }
+    
+    
+    
+    .won{
+        width: 100%;
+        padding: 6dvw 10dvw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2.5dvw;
+        position: absolute;
+        bottom:2dvw;
+        color: black;
+    }
+    .won hr{
+        border: .1dvw solid #E27E52;
+        height: 6dvw;
+    }
+    .won p{
+        padding: 0 3dvw;
+    }
+    
+    
+    .testimonial{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .testhead{
+        width: 100%;
+        text-align: center;
+        padding: 5dvw 0;
+    }
+    .testhead h4{
+        color: #E27E52;
+        padding-bottom: 1dvw ;
+    }
+    .testhead h2{
+        font-size: 4dvw;
+    }
+    .clients{
+        width: 100%;
+        padding: 0 5dvw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5dvw;
+    }
+    
+    .clients img{
+        width: 46%;
+        padding-bottom: 3dvw;
+    }
+    
+    /*-------------------------------- WHY US ----------------------------------------*/
+    
+.whyus{
+        gap: 9dvw;
+        padding-bottom: 14dvw;
+    }
+    
+    .whyus .right h5{
+        color: #FFCF54;
+        justify-content: center;
+        padding-top: 3dvw;
+    
+    }
+    .whyus .right h2{
+        font-size: 4dvw;
+    
+    }
+    
+    /*-=---------------------------- AWARD, ACHIEVEMENTS DEVELOPMENT ---------------------------------------------*/   
+
+    .awahead{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 2dvw;
+        padding-top: 3dvw;
+        padding-bottom: 6dvw;
+    }
+    .achdevelop h5{
+        color: #E27E52;
+    }
+    .achdevelop h2{
+        font-size: 4dvw;
+        color: black;
+    }
+    .medals{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5dvw;
+        justify-content: center;
+
+    }
+    .awa{
+        width: 35%;
+    }
+    .awa h4{
+        font-size: 2dvw;
+        text-align: center;
+    }
+    
+    .awa img {
+        width: 100%;
+    }
+    
+    .medals .awa:nth-of-type(2) {
+        margin-top: 5vw;
+    }
+    
+    .medals .awa:nth-of-type(3) {
+        margin-top: -5vw;
+    }
+    
+    .medals .awa:nth-of-type(4) {
+        margin-top: 5vw;
+    }
+    
+    
+    /*----------------------------------- DEVELOPMENT--------------------------------------------- */
+    .development{
+        width: 100%;
+        background: url(../images/developback.png);
+        padding:  5dvw 10dvw 8dvw 10dvw;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 4dvw;
+    }
+    
+    .devhead h4{
+        color: #E27E52;
+        padding: 1dvw;
+    }
+    .devhead h2{
+        font-size: 4dvw;
+        color: black;
+        padding-bottom: 3dvw;
+    }
+    
+    .newpro{
+        width: 100%; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 7dvw;
+    }
+    .parkview img{
+        width: 100%;
+        
+    }
+    .parkview{
+        position: relative;
+    }
+    .box{
+        width: 80%;
+        font-size: 2dvw;
+    }
+    /*================================= BLOG------------------------------------ */
+.ourblogs{
+    flex-wrap: wrap;
+        gap: 8dvw;
+        padding: 6dvw 9dvw;
+        position: relative;
+    }
+    .ourblogs .blogstar{
+        position: absolute;
+        left: 0;
+        top: 3dvw;
+    }
+    .bloghead{
+        text-align: center ;
+        display: flex;
+        flex-direction: column;
+        gap: 1dvw;
+    }
+    .bloghead h2{
+        font-size: 4dvw;
+    }
+    
+    .blogs{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 9dvw;
+        gap: 2dvw;
+    
+    }
+    .blog{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 1dvw;
+    }
+    .blog h5{
+        font-size: 2dvw;
+        color: #E27E52;
+    }
+    .blog h5 img{
+        width: 2dvw;
+        margin-right: 1dvw;
+    }
+    .blog img{
+        width: 100%;
+    }
+    .blog h4{
+        font-size: 2dvw;
+    }
+    .blog p{
+        font-size: 1.5dvw;
+    }
+    .blog h4,
+    .blog p{
+        padding-right: 3dvw;
+    }
+    .blog.b1 h4,
+    .blog.b1 p{
+        padding-right:5dvw ;
+    }
+    .blog.b1{
+        padding-right: dvw;
+    }
+    .blog.b2{
+        padding-left: 3dvw;
+        padding-top: 6dvw;
+    }
+    .blog.b3{
+        padding-left: 3dvw;
+        padding-top: 9dvw;
+    }
+    .hr2{
+        margin-top: -4dvw;
+    }
+    
+    /*--------------------------------- about--------------------------------------------- */
+
+    footer{
+        position: relative;
+    }
+    .foot{
+        width: 100%;
+        display: flex ;
+        gap: 3dvw;
+        justify-content: space-between;
+    }
+    .aboutt{
+        width: 22%;
+        line-height: 160%;
+    }
+    .aboutt.cont{
+        width: 26%;
+        display: flex;
+        flex-direction: column;
+        gap: 1dvw;
+    }
+    .aboutt h3{
+        padding-bottom: 2dvw;
+    }
+    
+    .contacts{
+        width: 130%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        padding: 1dvw 0dvw 1dvw 1dvw;
+        background: url(../images/contactsback.png);
+        background-position: start;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-top: 2dvw;
+    }
+    .contacts .sign{
+        width: 1dvw;
+        padding:  .7dvw;
+    }
+    .sign{
+        display: flex;
+        gap: 2dvw;
+    }
+    .s1{
+        padding-left: .5dvw;
+    }
+    
+    .leftnukar{
+        width: 2dvw;
+        position: absolute;
+        left: -1dvw;
+        top: -1.6dvw;
+    }
+    .nukarback{
+        width: 2dvw;
+        position: absolute;
+        left: -1.6dvw;
+        top: -2.1dvw;
+    }
+    .helpful{
+        width: 15%;
+    }
+    .aboutt li{
+        list-style-type: none;
+    }
+}
+
+
+
+/*========================================================================
+=================== MOBILE MEDIA=========================================================
+=================================== */
+@media(max-width:600px) {
+    
+    h1{
+        font-size: 5dvw;
+    }
+    h2{
+        font-size: 3dvw;
+    }
+    h3{
+        font-size: 2dvw;
+    }
+    
+    @font-face {
+        font-family: demo;
+        src: url(../fonts/Gilroy-Bold.woff);
+    }
+    
+    
+    
+    html{
+        font-family: demo;
+        color: white;
+        scroll-behavior: smooth;
+    }
+    
+    .main{
+        width: 100%;
+        height: auto;
+        background: url(../images/first\ background.png);
+        background-size: cover;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2vw 5vw;
+    }
+    nav .landmark{
+        display: flex;
+        align-items: flex-end;
+        gap: 0.5vw;
+    }
+    
+    nav .landmark img {
+        width: 4.5vw;
+    }
+    
+    nav ol{
+        display: flex;
+        gap: 1.5dvw;
+    }
+    
+    nav ol li {
+        list-style: none;
+        color: white;
+        text-decoration: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .button{
+        color: white;
+        background: #FF7433;
+        padding: 1dvw 2dvw;
+        border-radius: .3dvw;
+    }
+    
+    /* ==========================hero ===================*/
+    
+    .hero{ 
+        padding: 4dvw 0;
+        flex-direction: column-reverse;
+        gap: 8dvw;
+    }
+    .written{
+        width: 100%;
+        padding: 0 16%;
+        align-items: center;
+        gap: 3vw;
+    }
+    .written h1{
+        font-size: 10dvw;
+    }
+    .written p{
+        font-size: 4dvw;
+    }
+    .written .service{
+        display: flex;
+        flex-direction: column;
+        font-size: 3dvw;
+        gap: 3dvw;
+    }
+    .written .button{
+        color: black;
+        background:#FFCF54;
+        font-size: 4dvw;
+        border-radius: 4dvw;
+    }
+    
+    .image{
+        width: 100%;
+    }
+    
+    .hero .image .hero_img {
+        width: 100%;
+    }
+    
+    /*///////////////////////////////// award =====================================*/
+    
+    .award{
+        width: 100%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .left{
+        width: 100%;
+        justify-content: center;
+        align-items: center ;
+        padding-top: 8dvw;
+    }
+
+    
+    .build{
+        width: 90%;
+
+    }
+    .s{
+        width: 80dvw;
+        padding-right: 0dvw;
+    }
+    .sarrow{
+        width: 14%;
+        top: 14dvw;
+        left: 16dvw;
+    }
+    
+    .right{
+        width: 100%;
+        padding-top: 9dvw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .rnukback{
+        position: absolute;
+        right:  5dvw;
+        top: 14dvw;
+    }
+    
+    .nukkar{
+        width: 1.7 dvw;
+        position: absolute;
+        right: 6dvw;
+        top:16dvw;
+    
+    }
+
+    
+    .numbering{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+        padding: 0;
+        padding-bottom: 6dvw;
+    
+    
+    }
+    span{
+        padding:0dvw;
+        
+    }
+    .about{
+        padding: 10dvw 4dvw 10dvw 4dvw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 4dvw;
+        padding-bottom: 16dvw;
+    }
+    .about h3{
+        font-size: 4dvw;
+        color: #F5D47C;
+    }
+    .about h4{
+        font-size: 10dvw;
+        padding: 0;
+        text-align: center;
+    }
+    .about p{
+        width: 85%;
+        font-size: 3.6dvw;
+    }
+    /* --------------------------------------------projects [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[*/
+    
+    .projects{
+        width: 100%;
+        padding:  0 12dvw;
+        position: relative;
+        padding-bottom: 12dvw;
+    
+    }
+    .projects h4{
+        color: #F5D47C;
+    }
+    .projects h2{
+        font-size: 7dvw;
+        padding-top: .5dvw;
+    }
+    .house{
+        width: 100%; 
+        display: flex;
+        padding: 0 0;
+        padding-bottom: 14dvw;
+        gap: 12dvw;
+    }
+    /* .house .home img{
+        width: 85%;
+        
+    } */
+    .home{
+        width: 95%;
+        position: relative;
+    }
+    .home img{
+        width: 100%;
+    }
+    .home .box{
+        font-size: 5dvw;
+        width: 80%;
+        background-color: white;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        left: 7dvw;
+        bottom: -4dvw;
+    }
+    .home .box h3{
+        font-size: 3dvw;
+    }
+    .star{
+        position: absolute;
+        right: 0;
+        bottom: 27dvw;
+    }
+    
+    .eclips{
+        width: 42dvw;
+        position: absolute;
+        right: 0dvw;
+        bottom: 0dvw; */
+        /* z-index: -1; */
+    }
+    
+    
+    
+    /*----------------------------
+    ------------------------------------------ explore-------------------------------
+    -------------------------------------------------------- */
+    
+    .explore{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0dvw;
+    }
+    
+
+    .explore .heading{
+        padding-bottom: 7dvw;
+    }
+    .explore .heading h3{
+        padding-bottom: 1.1dvw;
+        color: #E27E52;
+        font-size: 4dvw;
+    }
+    .explore .heading h2{
+        font-size: 6.5dvw;
+        color: black;
+        padding: 0;
+    }
+    
+    .exp{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+        padding: 5dvw 0 12dvw 0;
+        gap: 5dvw;
+    }
+    .exp hr{
+        border: .2dvw solid #F0F0F0;
+        
+    }
+    
+    .park{
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: .8dvw;
+    }
+    .park h3,
+    .park h4,
+    .park p{
+        color: black;
+    }
+    .park h3{
+        font-size: 4dvw;
+    }
+    .park img{
+        width: 100%;
+        padding-bottom:0;
+    }
+    
+    .metrogujar{
+        padding-top: 0;
+    }
+    .lahore{
+    }
+    .gulbergislam{
+        padding-top: 0;
+        padding-bottom: 8dvw;
+    }
+    
+    /*---------------------------------------- OLD PROCESSES----------------------------------------------------------------- */
+    
+    .midback{
+        width: 100%;
+        background: url(../images/oldprocessesback.png);
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .oldlife{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .oldhead{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5dvw 2dvw;
+        padding-bottom: 2dvw;
+    }
+    .oldhead .left1{
+        width: 50%;
+        padding: 0 0 0 10dvw;
+        justify-content: center;
+    }
+    .oldhead .left1 h4{
+        color: #E27E52;
+        font-size: 4dvw;
+        padding-bottom: 2dvw;
+    }
+    .oldhead .left1 h2{
+        font-size: 7dvw;
+    }
+    .oldhead .right2{
+        width: 30%;
+    }
+    .oldhead .right2 h5{
+        font-size: 4dvw;
+    }
+    .right2{
+        justify-content: flex-end;
+    }
+    
+    .oldproj{
+        flex-direction: column;
+        padding: 2dvw;
+        justify-content: center;
+        align-items: center;
+        gap: 4dvw;
+    
+    }
+    .box1{
+        width: 80%;
+        border-radius: 4dvw;
+        padding: 2.5dvw 2dvw;
+        gap: 1dvw;
+    }
+    .box1 img{
+        width: 6dvw;
+    }
+    .box1 .investment{
+        padding:3dvw 4dvw ;
+    }
+    .wining{
+        width: 100%;
+        position: relative;
+        color: black;
+        padding-top: 4dvw;
+        padding-bottom: 3dvw;
+        
+    }
+    .awarddd{
+        width: 100%;
+        height: 40%;
+        padding:0 5dvw;
+    
+    }
+    
+    
+    
+    .won{
+        width: 100%;
+        bottom:0;
+    }
+    .won h3{
+        font-size: 2.5dvw;
+    }
+    .won hr{
+        border: .2dvw solid #E27E52;
+        height: 6dvw;
+    }
+    .won p{
+        font-size: 3dvw;
+        padding: 0 3dvw;
+    }
+    
+    
+    .testimonial{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5dvw;
+        padding-top: 15dvw;    }
+    .testhead{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .testhead h4{
+        color: #E27E52;
+        font-size: 2.9dvw;
+        padding-bottom: 1dvw ;
+    }
+    .testhead h2{
+        font-size: 7dvw;
+    }
+    .clients{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3dvw;
+    }
+    
+    .clients img{
+        width: 80%;
+    }
+    
+    /*-------------------------------- WHY US ----------------------------------------*/
+    
+    .whyus{
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 11.8dvw;
+        padding-bottom: 14dvw;
+    }
+    .whyus .left{
+        width: 100%;
+        padding: 0 10dvw 15dvw 10dvw;
+
+    }
+
+    span h4{
+        color: #FFCF54;
+    }
+    span hr{
+        border: .1dvw solid #FFFFFF;
+    }
+    .whyus .right{
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 2dvw;
+    }
+    
+    .whyus .right h5{
+        font-size: 3dvw;
+        color: #FFCF54;
+        padding-left: 0dvw;
+    
+    }
+    .whyus .right h2{
+        padding: 0;
+        font-size: 9dvw;
+    
+    }
+    .whyus .right img{
+        width: 70%;
+    }
+    
+    /*-=---------------------------- AWARD, ACHIEVEMENTS DEVELOPMENT ---------------------------------------------*/
+     
+    .achdevelop{
+        width: 100%;
+    
+    }
+    .awahead{
+        flex-direction: column;
+        gap: 2dvw;
+        padding-top: 3dvw;
+        padding-bottom: 9dvw;
+    }
+    .achdevelop h5{
+        font-size: 3dvw;
+        color: #E27E52;
+    }
+    .achdevelop h2{
+        font-size: 7dvw;
+        color: black;
+    }
+    .medals{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 ; 
+        justify-content:center;
+        align-items:center ;
+        gap: 5dvw;
+    }
+    
+    
+    .awa{
+        width: 80%;
+        padding-bottom: 5dvw;
+    }
+    .awa h4{
+        width: 100%;
+        color: white;
+        font-size: 3dvw;
+        border-top-left-radius: 3dvw;
+        border-top-right-radius: 3dvw;
+        background: black;
+        padding: 2dvw 1dvw;
+    }
+    
+    .awa img {
+        width: 100%;
+    }
+    
+    .medals .awa:nth-of-type(2) {
+        padding-bottom: 8dvw;
+        margin-top: 0;
+    }
+    
+    .medals .awa:nth-of-type(3) {
+        margin-top: ;
+    }
+    
+    .medals .awa:nth-of-type(4) {
+        margin-top: 0;
+    }
+    
+    
+    /*----------------------------------- DEVELOPMENT--------------------------------------------- */
+    .development{
+        width: 100%;
+        background: url(../images/developback.png);
+        padding:0;
+        padding-bottom: 9dvw;
+        display: flex;
+        flex-direction: column;
+        gap: 4dvw;
+    }
+    
+    .devhead h4{
+        font-size: 3dvw;
+        color: #E27E52;
+        padding: 5dvw 0;
+    }
+    .devhead h2{
+        font-size: 8dvw;
+    }
+    
+    .newpro{
+        width: 100%; 
+        padding: 0dvw;
+        display: flex;
+        padding-bottom: 12dvw;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        gap: 10dvw;
+    }
+    .parkview img{
+        padding: 0;
+        width:100%;
+        
+    }
+    .parkview{
+        position: relative;
+    }
+    .box{
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+        justify-content: center;
+        position: none;
+        left: 0;
+        bottom: 0;
+    }
+    .box h4{
+        font-size: 4dvw;
+    }
+    .box p{
+        font-size: 3dvw;
+    }
+    .newpro.excavation{
+        padding-bottom: 5dvw;
+    }
+    
+    
+    /*================================= BLOG------------------------------------ */
+    .ourblogs{
+        flex-direction: column;
+        gap: 8dvw;
+        padding:0dvw;
+        padding-top: 13dvw;
+        position: relative;
+
+    }
+    .ourblogs .blogstar{
+        position: absolute;
+        left: 0;
+        top: 3dvw;
+    }
+    .bloghead{
+        text-align: center ;
+        display: flex;
+        flex-direction: column;
+        gap: 3dvw;
+    }
+    .bloghead h5{
+        font-size: 3dvw;
+        color: #F5D47C;
+    
+    }
+    .bloghead h2{
+        font-size: 7dvw;
+    }
+    
+    .blogs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 9dvw;
+        gap: 5dvw;
+    
+    }
+    .blog{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 3dvw;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        
+    }
+    .blog h5{
+        font-size: 3dvw;
+        color: #E27E52;
+    }
+    .blog h5 img{
+        width: 3dvw;
+    }
+    .blog img{
+        width: 100%;
+        justify-content: center;
+        align-75ems: center;
+    }
+    .blog h4{
+        font-size: 5dvw;
+    }
+    .blog p{
+        font-size: 3dvw;
+    }
+    .blog h4,
+    .blog p{
+        padding-right: 3dvw;
+    }
+    .blog.b1 h4,
+    .blog.b1 p{
+        padding-right:0 ;
+    }
+    .blog.b1{
+        padding-right: 0;
+    }
+    .blog.b2{
+        padding-left: 0dvw;
+        padding-top: 0dvw;
+    }
+    .blog.b3{
+        padding-left: 0dvw;
+        margin-top: 0dvw;
+    }.blogs hr{
+        width: 80%;
+        margin-top: 4dvw;
+        border: .3dvw solid white;
+    }
+    
+    /*--------------------------------- about--------------------------------------------- */
+     
+    footer{
+        position: relative;
+    }
+    .foot{
+        width: 100%;
+        display: flex ;
+        flex-wrap: wrap;
+        gap: 3dvw;
+        justify-content: space-around;
+        gap: 4dvw;
+    }
+    .foot .aboutt{
+        width: 80%;
+        line-height: 160%;
+        border: 1px solid white;
+        border-radius: 3dvw;
+        padding: 2dvw 2dvw;
+    }
+    .aboutt.cont{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 1dvw;
+    }
+    .aboutt h3{
+        font-size: 3dvw;
+        color: #E27E52;
+        padding-bottom: 2dvw;
+    }
+    
+    .contacts{
+        width: 100%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        padding:0;
+        background: url(../images/contactsback.png);
+        background-position: start;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-top: 2dvw;
+    }
+    .contacts .sign{
+        width: 1dvw;
+        padding:  .7dvw;
+    }
+    .sign{
+        display: flex;
+        gap: 2dvw;
+    }
+    .s1{
+        padding-left: .5dvw;
+    }
+    
+    .leftnukar{
+        width: 2dvw;
+        position: absolute;
+        left: -1dvw;
+        top: -1.6dvw;
+    }
+    .nukarback{
+        width: 2dvw;
+        position: absolute;
+        left: -1.6dvw;
+        top: -2.1dvw;
+    }
+    .helpful{
+        width: 50%;
+    }
+    .aboutt li{
+        list-style-type: none
+    }
+}
